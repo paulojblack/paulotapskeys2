@@ -1,0 +1,5 @@
+{
+  "events": {
+    "restart": "live-reload --port 9091 ./"
+  }
+}
