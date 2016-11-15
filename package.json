@@ -1,7 +1,6 @@
 {
-    "name": "rutha-2016",
+    "name": "paulotapskeys",
     "version": "1.0.1",
-    "description": "rutha ui",
     "main": "lib/hapi/index.js",
     "scripts": {
         "tsc": "tsc",
@@ -10,16 +9,16 @@
         "build:js": "node scripts/systemjs-build.js",
         "build:sass": "node-sass --include-path scss scss/main.scss dist/main.css",
         "sass:w": "node-sass --watch --include-path scss scss/main.scss src/app/css/main.css",
-        "start:hapi": "concurrently \"npm run sass:w\" \"npm run tsc:w\" \"nodemon lib/hapi/index.js -e js,html\"  ",
+        "start": "concurrently \"npm run sass:w\" \"npm run tsc:w\" \"nodemon lib/hapi/index.js -e js,html\"  ",
         "postinstall":"cd src && rm -rf node_modules/ && npm install"
     },
-    "author": "Rogelio Morrell",
+    "author": "Paulo Black",
     "repository": {
         "type": "git",
-        "url": "git://github.com/molekilla/rutha-2016.git"
+        "url": "git://github.com/paulojblack/paulotapskeys2.git"
     },
     "engines": {
-        "node": ">=4.2.1"
+        "node": ">=7.1.0"
     },
     "license": "MIT",
     "devDependencies": {
@@ -39,10 +38,8 @@
         "good": "^6.4.0",
         "good-console": "^5.2.0",
         "hapi": "~13.0.0",
-        "hapi-auth-cookie": "^6.1.0",
         "inert": "^3.2.0",
         "joi": "8.0.4",
-        "mongoose": "^4.2.4",
         "rutha-utils": "^1.1.0",
         "underscore": "^1.8.3",
         "vision": "^4.0.0"
