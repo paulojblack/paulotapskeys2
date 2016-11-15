@@ -5,6 +5,6 @@ export class TestController {
 
   static $inject = ['$scope'];
   constructor($scope: angular.IScope) {
-    this.message = 'Hello World';
+    this.message = 'Paulo\'s Site';
   }
 }
