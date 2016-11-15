@@ -1,6 +1,5 @@
 /* Custom page CSS
 -------------------------------------------------- */
-/* Not required for template or sticky footer method. */
 
 body, html {
     background-color: #007fad;
@@ -9,10 +8,17 @@ body, html {
 body > .container {
   padding: 60px 15px 0;
 }
+.links {
+    padding: 100px 0px 0;
+}
 .container .text-muted {
   margin: 20px 0;
 }
 
 code {
   font-size: 80%;
+}
+
+a {
+    color: inherit;
 }

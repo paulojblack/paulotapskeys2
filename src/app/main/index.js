@@ -8,7 +8,7 @@ System.register(['angular'], function(exports_1, context_1) {
         execute: function() {
             TestController = (function () {
                 function TestController($scope) {
-                    this.message = 'Paulo\'s Site';
+                    this.message = 'Welcome to the site! If you can\'t tell, I\'m more of a back-end guy';
                 }
                 TestController.$inject = ['$scope'];
                 return TestController;
