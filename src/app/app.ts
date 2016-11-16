@@ -7,10 +7,10 @@ import 'angular-route';
 
 
 import {TestController} from './main/index';
-// import {SignupController} from './main/signup';
+import {ApplicationsController} from './main/applications';
 
 import IndexTpl from './main/index.html!text';
-// import SignupTpl from './main/signup.html!text';
+import ApplicationsTpl from './main/applications.html!text';
 
 RestangularConfig.$inject = ['RestangularProvider'];
 function RestangularConfig(RestangularProvider: any) {
@@ -21,11 +21,11 @@ function RestangularConfig(RestangularProvider: any) {
 RouteConfig.$inject = ['$routeProvider'];
 function RouteConfig($routeProvider: angular.route.IRouteProvider) {
     $routeProvider.
-        // when('/signup', {
-        //     template: SignupTpl,
-        //     controllerAs: 'vm',
-        //     controller: SignupController
-        // }).
+        when('/applications', {
+            template: ApplicationsTpl,
+            controllerAs: 'vm',
+            controller: ApplicationsController
+        }).
         otherwise({
             controller: TestController,
             controllerAs: 'vm',
