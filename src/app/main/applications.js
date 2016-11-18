@@ -8,7 +8,7 @@ System.register(['angular'], function(exports_1, context_1) {
         execute: function() {
             ApplicationsController = (function () {
                 function ApplicationsController($scope) {
-                    this.message = 'In the applications view';
+                    this.message = 'Check out some apps I\'ve created and contributed to!';
                 }
                 ApplicationsController.$inject = ['$scope'];
                 return ApplicationsController;

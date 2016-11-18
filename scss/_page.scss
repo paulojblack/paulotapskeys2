@@ -2,15 +2,14 @@
 -------------------------------------------------- */
 
 body, html {
-    background-color: #007fad;
-    background-image: url("https://www.transparenttextures.com/patterns/merely-cubed.png");
+    background-color: #000000;
+    background-image: url("https://www.transparenttextures.com/patterns/ag-square.png");
 }
+
 body > .container {
     padding: 60px 15px 0;
 }
-.links {
-    padding: 200px 0px 0;
-}
+
 .container .text-muted {
   margin: 20px 0;
 }
@@ -21,4 +20,12 @@ code {
 
 a {
     color: inherit;
+}
+
+.links {
+    padding: 200px 0px 0;
+}
+
+.intro-text {
+    font-size: 120px
 }
