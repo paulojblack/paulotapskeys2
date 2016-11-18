@@ -2,30 +2,30 @@
 -------------------------------------------------- */
 
 body, html {
-    background-color: #000000;
+    background-color: #383737;
     background-image: url("https://www.transparenttextures.com/patterns/ag-square.png");
+    color: #bfbfbf;
+    font-family: "Lucida Console", Monaco, monospace;
 }
-
-body > .container {
-    padding: 60px 15px 0;
+.title {
+    margin-top:2%;
 }
-
-.container .text-muted {
-  margin: 20px 0;
+.landing {
+    margin-top:10%
 }
-
-code {
-    font-size: 80%;
+span {
+    display: inline-block;
 }
-
-a {
-    color: inherit;
-}
-
-.links {
-    padding: 200px 0px 0;
+a, p {
+    color: #bfbfbf;
 }
 
 .intro-text {
-    font-size: 120px
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.applications {
+    margin-top:20%;
+    font-size: 50px;
 }

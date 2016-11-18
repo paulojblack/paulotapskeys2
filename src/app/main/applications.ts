@@ -5,6 +5,6 @@ export class ApplicationsController {
 
   static $inject = ['$scope'];
   constructor($scope: angular.IScope) {
-    this.message = 'Check out some apps I\'ve created and contributed to!';
+    this.message = 'Programs I\'ve Created or Contributed to.;
   }
 }
